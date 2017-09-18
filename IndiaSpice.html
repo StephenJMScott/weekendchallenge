@@ -57,6 +57,10 @@
 		    background-position:center center;
 		    display:flex;
 		    flex-direction:column;
+		    flex-wrap:no-wrap;
+		    justify-content:space-around;
+		    align-items:center;
+		    
 		}
 		
 		
@@ -64,11 +68,9 @@
 		
 		#blocks{
 			font-family:"Indie Flower";
-			display:flex;
-			flex-direction:column;
-			justify-content:center;
-			align-items:center;
 			-webkit-filter:opacity(.8);
+			padding:30px;
+
 
 		}
 		
@@ -85,11 +87,8 @@
 		
 		#vid{
 		    font-family:"Indie Flower";
-			display:flex;
-			flex-direction:column;
-			justify-content:center;
-			align-items:center;
 			-webkit-filter:opacity(.8);
+			padding:30px;
 		    
 		}
 		
@@ -108,10 +107,9 @@
 			    #blocks{
 			        	width:80%;
 				        margin:100px auto;
-        			    flex-direction:row;
         				border:20px;
-        				justify-content:space-around;
-        				align-items:flex-start;
+        			
+        			
 			    }
 			    
 			    .block{
@@ -125,10 +123,8 @@
 			    #vid{
 			            width:80%;
 				        margin:100px auto;
-        			    flex-direction:row;
         				border:20px;
-        				justify-content:space-around;
-        				align-items:flex-start;
+        			
 			        
 			    }
 			    
@@ -165,6 +161,14 @@
                 five years, Indian Spice is a dining experience not to be missed</p>
                 </article>
             </section id="vid">
+                <article clas="block">
+                    <h3>Watch Our Chefs at Work</h3>
+                    <br>
+                    <video controls="controls">
+                        <source src ="video.mp4" type="video/mp4"/>
+                        
+                        
+                    </video>
                 
                     
                 </article>
