@@ -59,8 +59,8 @@
 		    flex-direction:column;
 		    flex-wrap:no-wrap;
 		    justify-content:space-around;
-		    align-items:center;
-		    
+		    align-items:flex-start;
+		    padding:30px;
 		}
 		
 		
@@ -164,9 +164,10 @@
                 <article clas="block">
                     <h3>Watch Our Chefs at Work</h3>
                     <br>
-                    <video controls="controls">
-                        <source src ="video.mp4" type="video/mp4"/>
+                    <video controls="controls"autoplay muted>
+                        <source src ="video.mp4#t=00,30" type="video/mp4" preload="metadata" />
                         
+                        "Your Browser Does Not Support This Media"
                         
                     </video>
                 

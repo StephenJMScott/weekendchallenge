@@ -43,12 +43,44 @@
 		    padding:0px 20px 0px 20px;
 		}
 		
-		#body{
+		#main{
+			margin-top:240px;
 		    height:1000px;
 		    background-image:url("food1.jpg");
 		    background-size:cover;
 		    background-position:center center;
+		    display:flex;
+		    flex-direction:column;
+		    flex-wrap:no-wrap;
+		    justify-content:space-around;
+		    align-items:center;
+		    padding:30px;
 		}
+		
+		#appetizer{
+			font-family:"Indie Flower";
+			-webkit-filter:opacity(.8);
+			padding:30px;
+			background-image: url("spices.jpg");
+			
+		}
+		
+		#maincourse{
+			font-family:"Indie Flower";
+			-webkit-filter:opacity(.8);
+			padding:30px;
+			background-image: url("curry.jpg");
+			
+		}
+		
+		#desert{
+			font-family:"Indie Flower";
+			-webkit-filter:opacity(.8);
+			padding:30px;
+			background-image: url("desert.jpg");
+			
+		}
+		
 		
 		
 			@media screen and (min-width: 700px){
@@ -58,6 +90,11 @@
 			        justify-content:space-between;
 			     
 			    }
+			  	
+			  	#main{
+			  	flex-direction:row;
+			  	}
+			  	
 			    
 			    
 			    
@@ -82,7 +119,7 @@
             </ul>
         </nav>
         
-        <div id="body">
+        <div id="main">
             
         </div>
         
